@@ -1,5 +1,6 @@
 .square {
     box-sizing: border-box;
+    font-size: 24px;
     width: 500px;
     height: 200px;
     padding: 20px;
