@@ -28,8 +28,10 @@ li {
 }
 
 .nav-item {
-    position: relative;
-    top: 25%;
+    /* position: relative;
+    top: 25%; */
+    display: flex;
+    align-items: center;
     height: 40px;
     float: left;
     margin-left: 16px;
