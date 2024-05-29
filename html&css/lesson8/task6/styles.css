@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-.container {
-    margin: 50px;
+body {
+    padding: 50px;
 }
 
 .rectangle {
