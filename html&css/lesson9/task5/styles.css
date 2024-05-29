@@ -4,8 +4,8 @@
 
 ul {
     margin: 0;
-    position: absolute;
-    top: 11px;
+    /* position: absolute;
+    top: 11px; */
 }
 
 li {
@@ -26,8 +26,15 @@ li {
 
 .navigation {
     height: 100%;
-    position: relative;
 }
+
+.nav-list {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-list .nav-item:nth-child(1) {}
 
 .content {
     height: 5000px;
@@ -39,8 +46,9 @@ li {
     height: 200px;
     background-color: aquamarine;
     position: absolute;
-    top: calc(50% - 100px);
-    left: calc(50% - 100px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .ear {
