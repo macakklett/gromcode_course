@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    border: 2px solid black;
+    padding: 50px;
+}
+
+.square1 {
+    background-color: blue;
+    margin: 50px;
+}
+
+.square2 {
+    background-color: yellow;
+}
+
+.square3 {
+    background-color: green;
+}
+
+.square4 {
+    background-color: pink;
+}
