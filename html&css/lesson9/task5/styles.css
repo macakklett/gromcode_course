@@ -21,10 +21,11 @@ li {
     top: 0;
     background-color: darkturquoise;
     height: 40px;
+    z-index: 10;
 }
 
 .navigation {
-    height: 40px;
+    height: 100%;
     position: relative;
 }
 
