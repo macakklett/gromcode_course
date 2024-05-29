@@ -1,6 +1,7 @@
 .square {
     box-sizing: border-box;
-    border: 3px solid aqua;
+    border: 3px solid;
+    background-color: aqua;
     padding: 50px;
     margin-bottom: 50px;
 }
