@@ -4,15 +4,10 @@
 
 ul {
     margin: 0;
-    /* position: absolute;
-    top: 11px; */
 }
 
 li {
     list-style: none;
-    display: inline-block;
-    margin-left: 16px;
-    color: white;
 }
 
 .header {
@@ -25,13 +20,20 @@ li {
 }
 
 .navigation {
-    height: 100%;
+    height: 40px;
 }
 
 .nav-list {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    height: 40px;
+}
+
+.nav-item {
+    position: relative;
+    top: 25%;
+    height: 40px;
+    float: left;
+    margin-left: 16px;
+    color: white;
 }
 
 .nav-list .nav-item:nth-child(1) {}
