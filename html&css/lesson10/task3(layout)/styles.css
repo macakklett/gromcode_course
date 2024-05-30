@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 ul, ol {
     margin: 0;
@@ -53,6 +53,8 @@ li {
 
 .news_item {
     height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-list {
