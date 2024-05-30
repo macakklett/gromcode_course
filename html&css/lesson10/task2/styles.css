@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 div.block {
     background-color: coral;
     margin: 8px;
