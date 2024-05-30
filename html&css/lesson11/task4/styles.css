@@ -16,7 +16,7 @@ ol, ul {
 
 .tooltip {
     position: absolute;
-    top: 40px;
+    bottom: -40px;
     display: none;
     padding: 8px;
     border-radius: 4px;
