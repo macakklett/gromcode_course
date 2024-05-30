@@ -10,6 +10,7 @@ header h1 {
 
 .article {
     flex-basis: 300px;
+    flex-grow: 1;
     margin: 8px;
     padding: 16px;
     background-color: bisque;
