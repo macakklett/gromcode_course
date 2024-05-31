@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Verdana", sans-serif;
+}
+
+.mountains {
+    width: 300px;
+    height: 500px;
+    /* background-color: #ff0000; */
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    /* background-repeat: no-repeat; */
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    padding: 32px;
+    text-align: center;
+}
