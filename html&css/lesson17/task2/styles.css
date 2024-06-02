@@ -24,7 +24,7 @@ thead > tr {
 }
 
 tr {
-    line-height: 40px;
+    height: 40px;
 }
 
 tbody > tr:nth-child(odd) {
