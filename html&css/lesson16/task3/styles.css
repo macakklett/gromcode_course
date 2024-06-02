@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.checkbox {
+    display: inline-block;
+    position: relative;
+    margin: 16px;
+    padding-left: 35px;
+    font-size: 24px;
+}
+
+.checkmark {
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    background-color: #d3d3d3;
+}
+
+input[type="checkbox"]:checked + .checkmark {
+    background-color: #006400;
+}
