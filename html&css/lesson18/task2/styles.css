@@ -2,7 +2,11 @@
     box-sizing: border-box;
 }
 
-.button {
+svg {
+    stroke: none;
+}
+
+.button{
     margin: 64px;
     width: 200px;
     height: 50px;
@@ -29,3 +33,4 @@
 .button:hover .button-svg {
     fill: #008000;
 }
+
