@@ -17,7 +17,7 @@
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
-    animation: down 2s ease;
+    animation: down 2s ease forwards;
 }
 
 @keyframes down {
