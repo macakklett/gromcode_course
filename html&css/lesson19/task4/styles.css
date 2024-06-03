@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7f50;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    animation: down 2s ease;
+}
+
+@keyframes down {
+    from {
+        top: 100px;
+    }
+
+    to {
+        top: calc(50vh - 50px);
+    }
+}
