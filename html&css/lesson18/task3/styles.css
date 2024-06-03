@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.butteries {
+    display: flex;
+    justify-content: space-around;
+}
+
+.battery:nth-child(1) {
+    font-size: 16px;
+}
+
+.battery:nth-child(2) {
+    font-size: 32px;
+}
+
+.battery:nth-child(3) {
+    font-size: 64px;
+}
+
+.battery:nth-child(4) {
+    font-size: 128px;
+}
+
+.battery:nth-child(5) {
+    font-size: 256px;
+}
