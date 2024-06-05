@@ -4,11 +4,12 @@
 
 body {
   display: flex;
-  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  margin: auto;
+  margin-top: calc(50vh - 58px);
   display: flex;
   flex-direction: column;
 }
@@ -20,11 +21,13 @@ body {
   background-color: #ff7f50;
 }
 
-@media (min-width: 600px) {
+@media (orientation: landscape) {
   .container {
     flex-direction: row;
   }
+}
 
+@media (min-width: 600px) {
   .square {
     background-color: #8a2be2;
   }
