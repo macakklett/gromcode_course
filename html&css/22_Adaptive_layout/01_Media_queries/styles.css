@@ -16,7 +16,7 @@ body {
   width: 100px;
   height: 100px;
   margin: 8px;
-  background-color: #8a2be2;
+  background-color: #ff7f50;
 }
 
 @media (max-width: 600px) and (orientation: portrait) {
@@ -27,6 +27,6 @@ body {
 
 @media (orientation: landscape) {
   .square {
-    background-color: #ff7f50;
+    background-color: #8a2be2;
   }
 }
