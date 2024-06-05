@@ -10,6 +10,7 @@ body {
 .container {
   margin: auto;
   display: flex;
+  flex-direction: column;
 }
 
 .square {
@@ -19,13 +20,11 @@ body {
   background-color: #ff7f50;
 }
 
-@media (max-width: 600px) and (orientation: portrait) {
+@media (min-width: 600px) {
   .container {
-    flex-direction: column;
+    flex-direction: row;
   }
-}
 
-@media (orientation: landscape) {
   .square {
     background-color: #8a2be2;
   }
