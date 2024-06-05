@@ -35,11 +35,11 @@
   }
 
   .navigation {
-    flex-grow: 1;
+    width: calc(100vw/2);
   }
 
   .product-list {
-    flex-grow: 1;
+    width: calc(100vw/2);
   }
 }
 
@@ -53,6 +53,6 @@
   }
 
   .products {
-    flex-grow: 1;
+    width: calc(2*100vw/3);
   }
 }
