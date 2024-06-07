@@ -14,6 +14,7 @@
   align-items: center;
   height: 3em;
   padding: 0 8px;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .menu__item:hover {
