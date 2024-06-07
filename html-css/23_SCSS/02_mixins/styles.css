@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+@media (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
+.container .square {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+}
+@media (max-width: 600px) {
+  .container .square {
+    background-color: #ff7f50;
+  }
+}
+@media (min-width: 600px) {
+  .container .square {
+    background-color: #8a2be2;
+  }
+}
+@media (min-width: 899px) {
+  .container .square {
+    background-color: #aa6611;
+  }
+}
+@media (min-width: 1200px) {
+  .container .square {
+    background-color: #cc4477;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
