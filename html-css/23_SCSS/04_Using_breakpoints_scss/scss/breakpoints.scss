@@ -1,0 +1,14 @@
+$sm: 600px;
+$md: 900px;
+
+@mixin for-medium {
+  @media (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-medium-up {
+  @media (min-width: $md) {
+    @content;
+  }
+}
