@@ -1,28 +1,28 @@
 .header {
-  background-color: #006400;
+  background-color: darkgreen;
+  height: 3em;
 }
 
 .menu {
   display: flex;
+  list-style-type: none;
+  padding-left: 3em;
   margin: 0;
-  margin-left: 3em;
-  padding: 0;
-  width: 100%;
-}
-.menu__item {
-  display: flex;
-  align-items: center;
-  height: 3em;
-  padding: 0 8px;
-  color: #ffffff;
   text-transform: uppercase;
 }
+.menu__item {
+  position: relative;
+  display: block;
+  color: white;
+  padding: 0 8px;
+  line-height: 3em;
+  cursor: pointer;
+}
 .menu__item:hover {
-  background-color: #9acd32;
+  background-color: yellowgreen;
 }
 .menu__item_active {
-  position: relative;
-  color: #ffff00;
+  color: yellow;
 }
 .menu__item_active:hover .submenu {
   display: block;
@@ -42,7 +42,7 @@
 }
 .submenu__item {
   padding: 8px;
-  margin-bottom: 8px;
+  margin-left: 8px;
 }
 .submenu__item:hover {
   color: #000000;

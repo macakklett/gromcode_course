@@ -1,36 +1,70 @@
 .header {
-  background-color: #006400;
+  background-color: darkgreen;
+  height: 3em;
 }
 
 .menu {
   display: flex;
+  list-style-type: none;
+  padding-left: 3em;
   margin: 0;
-  margin-left: 3em;
-  padding: 0;
-  width: 100%;
+  text-transform: uppercase;
 
   &__item {
-    display: flex;
-    align-items: center;
-    height: 3em;
+    position: relative;
+    display: block;
+    color: white;
     padding: 0 8px;
-    color: #ffffff;
-    text-transform: uppercase;
+    line-height: 3em;
+    cursor: pointer;
 
     &:hover {
-      background-color: #9acd32;
+      background-color: yellowgreen;
     }
   }
 
   &__item_active {
-    position: relative;
-    color: #ffff00;
+    color: yellow;
 
     &:hover .submenu {
       display: block;
     }
   }
 }
+
+// .header {
+//   background-color: #006400;
+// }
+
+// .menu {
+//   display: flex;
+//   margin: 0;
+//   margin-left: 3em;
+//   padding: 0;
+//   width: 100%;
+
+//   &__item {
+//     display: flex;
+//     align-items: center;
+//     height: 3em;
+//     padding: 0 8px;
+//     color: #ffffff;
+//     text-transform: uppercase;
+
+//     &:hover {
+//       background-color: #9acd32;
+//     }
+//   }
+
+//   &__item_active {
+//     position: relative;
+//     color: #ffff00;
+
+//     &:hover .submenu {
+//       display: block;
+//     }
+//   }
+// }
 
 .submenu {
   display: none;
@@ -46,7 +80,7 @@
 
   &__item {
     padding: 8px;
-    margin-bottom: 8px;
+    margin-left: 8px;
 
     &:hover {
       color: #000000;
