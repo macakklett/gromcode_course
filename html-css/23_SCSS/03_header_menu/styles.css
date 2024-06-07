@@ -21,11 +21,11 @@
 .menu__item:hover {
   background-color: yellowgreen;
 }
+.menu__item:hover .submenu {
+  display: block;
+}
 .menu__item_active {
   color: yellow;
-}
-.menu__item_active:hover .submenu {
-  display: block;
 }
 
 .submenu {

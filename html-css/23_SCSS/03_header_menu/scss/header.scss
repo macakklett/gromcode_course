@@ -20,17 +20,51 @@
 
     &:hover {
       background-color: yellowgreen;
+
+      & .submenu {
+        display: block;
+      }
     }
-  }
 
-  &__item_active {
-    color: yellow;
-
-    &:hover .submenu {
-      display: block;
+    &_active {
+      color: yellow;
     }
   }
 }
+
+// .header {
+// background-color: darkgreen;
+// height: 3em;
+// }
+
+// .menu {
+// display: flex;
+// list-style-type: none;
+// padding-left: 3em;
+// margin: 0;
+// text-transform: uppercase;
+
+// &__item {
+// position: relative;
+// display: block;
+// color: white;
+// padding: 0 8px;
+// line-height: 3em;
+// cursor: pointer;
+
+// &:hover {
+// background-color: yellowgreen;
+// }
+// }
+
+// &__item_active {
+// color: yellow;
+
+// &:hover .submenu {
+// display: block;
+// }
+// }
+// }
 
 // .header {
 //   background-color: #006400;
